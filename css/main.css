@@ -1,0 +1,684 @@
+.wrapper a {
+    text-decoration: none;
+}
+
+li {
+    list-style-type: none;
+}
+
+.hidden {
+    display: none;
+}
+
+body {
+    font-family: "RobotoRegular", sans-serif;
+    min-width: 320px;
+    position: relative;
+    background: #e9d4c2 url("../img/bg.png");
+    padding: 0 10px;
+}
+
+.wrapper {
+    position: relative;
+    background: #fff none repeat scroll 0 0;
+    box-shadow: 0 1px 6px 1px rgba(0, 0, 0, 0.2);
+    margin: 0 auto;
+    padding: 0;
+}
+
+.row_padding {
+    margin: 0;
+}
+
+.top_header {
+    display: inline-block;
+    background: #3c2240 url("../img/bg.png");
+    height: 55px;
+    overflow-x: visible;
+    width: 100%;
+}
+
+.flags {
+    width: 120px;
+    margin-left: -20px;
+}
+
+.flags li {
+    display: inline-block;
+    margin-top: 2px;
+}
+
+.flags li a span {
+    display: inline-block;
+    width: 24px;
+    height: 19px;
+    background-image: url("../img/flags_icon_set.png");
+    background-position: 0 -2px;
+}
+
+.flags li .flag_ru span {
+    background-image: url("../img/flags_icon_set.png");
+    background-position: -29px -2px;
+}
+
+.flags li .flag_ua span {
+    background-image: url("../img/flags_icon_set.png");
+    background-position: -58px -2px;
+}
+
+.hd_contact {
+    float: right;
+    margin: -62px 0 0 0;
+    color: #fff;
+    font-size: 15px;
+    width: 310px;
+    text-align: center;
+}
+
+.hd_contact li {
+    display: inline-block;
+    margin: -1px 5px;
+}
+
+.hd_contact li a {
+    color: #CDBCAE;
+}
+
+.wrap_logo {
+    text-align: center;
+    margin: 15px;
+}
+
+
+/*nav start*/
+
+.navbar {
+    width: 104%;
+    height: 75px;
+    text-align: center;
+    background: #3c2240 url("../img/bg.png");
+    margin-left: -2%;
+    border-bottom: 7px solid #BF95AC;
+    position: relative;
+}
+
+.corner_left,
+.corner_right {
+    border-top: 18px solid;
+    position: absolute;
+}
+
+.corner_left {
+    float: left;
+    border-color: #886478;
+    border-left: 19px solid transparent;
+    left: -19px;
+}
+
+.corner_right {
+    float: right;
+    border-color: #886478;
+    border-right: 19px solid transparent;
+    right: -19px;
+}
+
+.navbar .nb_menu a {
+    display: inline-block;
+    width: 131px;
+    text-transform: uppercase;
+    line-height: 50px;
+    color: #fff;
+    margin: 10px -2px;
+    text-decoration: none;
+    border-right: 1px solid #6D5A6F;
+}
+
+.navbar .nb_menu a:last-child {
+    border: none;
+}
+
+.navbar .nb_menu a:active,
+.navbar .nb_menu a:hover {
+    color: #CDBCAE;
+}
+
+.button_menu {
+    background-color: transparent;
+    border: none;
+    font-size: 26px;
+    color: #CDBCAE;
+    position: relative;
+    top: 12px;
+    float: left;
+    margin-left: 20px;
+}
+
+
+/*nav over*/
+
+
+/*Booking form start*/
+
+.booknow {
+    width: 235px;
+    height: 144px;
+    position: absolute;
+    top: 90px;
+    left: -2%;
+    z-index: 101;
+    border-bottom: 9px solid;
+    border-color: #bf95ac;
+    background: url(../img/bg.png) #3c2240;
+    text-align: center;
+    padding: 15px 0;
+}
+
+.booknow .corner_left {
+    left: 0px;
+    bottom: -27px;
+    border-left: 19px solid transparent;
+}
+
+.booking-form select {
+    background: #fff no-repeat 88% 50%;
+    font-size: 14px;
+    border: none;
+    width: 193px;
+    height: 26px;
+    color: #aaa;
+    margin: 0 0 15px 0;
+}
+
+.calendar {
+    padding: 0;
+}
+
+.calendar .datepicker {
+    width: 38%;
+    border: none;
+}
+
+.input {
+    margin: 0 5px;
+    padding: 0 0 0 5px;
+}
+
+.number {
+    margin: 15px 0 10px 0;
+    width: 82%;
+    border: none;
+}
+
+.btn,
+.button1,
+.bookbutton {
+    background: #bf95ac bottom left;
+}
+
+.btn,
+.bookbutton {
+    border: none;
+    color: #fff;
+    padding: 5px 10px 5px 10px;
+    font-size: 13px;
+    font-weight: bold;
+    -webkit-border-radius: 30px;
+    -moz-border-radius: 30px;
+    -o-border-radius: 30px;
+    border-radius: 30px;
+}
+
+
+/*booking-form over*/
+
+
+/*main picture start*/
+
+.slider_container {
+    position: relative;
+}
+
+.slider_container .main_picture img {
+    width: 100%;
+    height: auto;
+    margin: 0;
+}
+
+.flex-caption {
+    background: rgba(191, 149, 172, 0.7);
+    font-size: 24px;
+    margin: 0;
+    max-width: 300px;
+    padding: 10px;
+    color: #fff;
+    font-style: italic;
+    z-index: 1;
+    position: absolute;
+    bottom: 10%;
+    right: 0%;
+}
+
+
+/*main-picture over*/
+
+
+/*youtube container  start*/
+
+.booking_main h2,
+.comments_h3,
+.rooms_preview_wrapper h2,
+.video_header h2,
+.maps_header h2,
+.comments h2 {
+    text-align: center;
+    font-weight: 200;
+    text-transform: uppercase;
+    font-style: italic;
+    border-bottom: 1px solid lightgray;
+}
+
+.video_wrapper {
+    width: 560px;
+    margin: auto;
+    max-width: 100%;
+}
+
+.maps_header,
+.video_header {
+    width: 100%;
+    text-align: center;
+    color: #424242;
+}
+
+.video_container {
+    position: relative;
+    padding-bottom: 56.25%;
+    padding-top: 30px;
+    height: 0;
+    overflow: hidden;
+}
+
+.video_container iframe {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+}
+
+
+/*youtube container over*/
+
+
+/*text_section start*/
+
+.text_section {
+    margin: 40px 0;
+}
+
+.text_section_wrap {
+    border-top: 1px solid lightgray;
+}
+
+.number_h2 h2,
+.number_text h4,
+.block_pic h4,
+.about_numb_wrap h3,
+.text_section_wrap h3 {
+    border-bottom: 1px solid lightgray;
+    text-transform: uppercase;
+    font-weight: 400;
+    white-space: nowrap;
+    color: #6a067a;
+}
+
+.number_text h4 {
+    border: none;
+}
+
+.title-end {
+    display: block;
+    height: 4px;
+    position: absolute;
+    width: 60px;
+    background: #bf95ac;
+}
+
+.text_section_wrap div {
+    height: 120px;
+}
+
+.text_section_wrap .line_bottom {
+    background: url(../img/radius_line.png) no-repeat;
+    position: relative;
+    bottom: -23px;
+    left: -16px;
+    width: 322px;
+    height: 22px;
+}
+
+.text_section_wrap .col_first {
+    border-right: 1px solid lightgray;
+}
+
+.text_section_wrap .col_third {
+    border-left: 1px solid lightgray;
+}
+
+
+/*text_section over*/
+
+
+/*comments_section start*/
+
+.comment_col {
+    margin: 5px;
+    padding: 10px;
+    border: 1px solid lightgray;
+}
+
+
+/*comments_section over*/
+
+
+/* maps start*/
+
+.maps_wrapper {
+    width: 560px;
+    margin: auto;
+    max-width: 100%;
+}
+
+.maps_container {
+    position: relative;
+    padding-bottom: 56.25%;
+    padding-top: 30px;
+    height: 0;
+    overflow: hidden;
+}
+
+.maps_container iframe {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+}
+
+
+/*maps over*/
+
+
+/*footer start*/
+
+footer {
+    margin-top: 10px;
+    background: #3c2240 url("../img/bg.png");
+    width: 100%;
+    position: relative;
+    bottom: -10px;
+}
+
+.footer_wrapper p {
+    color: aliceblue;
+    font-size: 12px;
+}
+
+footer ul li {
+    display: inline-block;
+    margin: 0 2px;
+    font-size: 12px;
+}
+
+.social_ic {
+    text-align: center;
+}
+
+
+/*footer over*/
+
+
+/*Страница с номерами rooms start*/
+
+.rooms_preview_wrap {
+    margin: 25px 0;
+}
+
+.rooms_container {
+    margin: 10px 0;
+}
+
+.block_pic {
+    padding: 5px;
+    background: #fff none repeat scroll 0 0;
+    box-shadow: 0 5px 10px 1px rgba(0, 0, 0, 0.5);
+}
+
+.block_pic img {
+    width: 100%;
+}
+
+.block_pic .title-end,
+.about_numb_wrap .title-end {
+    position: absolute;
+    margin-top: -19px;
+}
+
+.about_room {
+    margin-top: 16px;
+    color: #7c7474;
+}
+
+.room_price {
+    color: #fff;
+    font-size: 20px;
+    position: relative;
+    bottom: 70px;
+    float: right;
+    margin-right: -13px;
+    padding: 2px 8px 2px 8px;
+    border-bottom: 5px solid;
+    border-color: #bf95ac;
+    background: url(../img/bg.png) #3c2240;
+    width: 90px;
+}
+
+.corner-right-small {
+    border-top: 8px solid;
+    border-color: #886478;
+    border-right: 8px solid transparent;
+    width: 0;
+    height: 0;
+    position: absolute;
+    bottom: -13px;
+    right: 0;
+}
+
+
+/*Страница с номерами rooms over*/
+
+
+/*Страница с номером room1,2,3,4,5,6 start*/
+
+.free_in_room li {
+    list-style-image: url(../img/list2.png);
+    border-bottom: 1px solid #f4f4f4;
+    height: 30px;
+    line-height: 30px;
+    white-space: pre;
+    margin-left: -30px;
+}
+
+
+/*Страница с номером room1,2,3,4,5,6 end*/
+
+
+/*Страница с контактами contacts start*/
+
+.contacts_header {
+    border-bottom: 1px solid lightgrey;
+    margin: 10px 0;
+}
+
+.contacts_header h2 {
+    text-align: left;
+    margin-left: 40px;
+    text-transform: none;
+    font-style: normal;
+    border: none;
+}
+
+.contacts_cont h4,
+.contacts_cont h3 {
+    margin-left: 25px;
+    line-height: 25px;
+    font-weight: 200;
+}
+
+.feedback_form {
+    margin-left: 25px;
+}
+
+.field-row label {
+    font-size: 12px;
+}
+
+.field-row textarea {
+    width: 95%;
+}
+
+.field-row textarea,
+.field-row input {
+    background: #f7f7f7;
+    border: #d4d8d9 1px solid;
+    font-size: 14px;
+    padding: 5px 7px 5px 7px;
+    margin: 0 0 15px 0;
+    color: #818181;
+}
+
+.button2 {
+    border: none;
+    border-radius: 15px;
+    font-size: 12px;
+    background: #f7f7f7;
+    height: 25px;
+    border: #d4d8d9 1px solid;
+}
+
+
+/*Страница с отзывами rewiews srart*/
+
+.rewiews_wrapper {
+    padding: 15px 15px 0;
+}
+
+.sider_container img {
+    max-width: 100%;
+}
+
+.sider_container {
+    position: relative;
+}
+
+.next_button,
+.prev_button {
+    color: #fff;
+    cursor: pointer;
+    font-size: 46px;
+    padding: 0 25px;
+    position: absolute;
+    top: 40%;
+    z-index: 10;
+}
+
+.next_button {
+    right: 20px;
+}
+
+.prev_button {
+    left: 20px;
+}
+
+
+/*Страница с отзывами rewiews over*/
+
+
+/*Страница с бронированием booking-page start*/
+
+.btn_booking_page {
+    position: relative;
+    top: 20px;
+    border: none;
+    color: #fff;
+    padding: 5px 10px 5px 10px;
+    font-weight: bold;
+    -webkit-border-radius: 30px;
+    -moz-border-radius: 30px;
+    -o-border-radius: 30px;
+    border-radius: 30px;
+    background: #bf95ac;
+    text-shadow: none;
+    margin: 0 0 0 15px;
+}
+
+
+/*Страница с бронированием booking-page end*/
+
+
+/*Страница со Скидками discount start*/
+
+.discount {
+    position: relative;
+}
+
+.discount {}
+
+.discount h4,
+.discount h1 {
+    text-align: center;
+}
+
+.banners {
+    border-radius: 5px;
+    overflow: hidden;
+    background: #bf95ac;
+    background: #fff none repeat scroll 0 0;
+    box-shadow: 0 5px 10px 1px rgba(0, 0, 0, 0.5);
+}
+
+.main_banner {}
+
+.main_banner img {
+    width: 100%;
+}
+
+.banners {
+    min-height: 300px;
+    position: relative;
+    margin: 10px 0;
+}
+
+.banners p {
+    margin: 5px;
+}
+
+.banners span {
+    text-align: center;
+    line-height: 30px;
+    color: aliceblue;
+    font-size: 15px;
+    font-weight: 600;
+    position: absolute;
+    z-index: 100;
+    top: 0;
+    left: 10%;
+    background: url(../img/percent.png) no-repeat;
+    height: 40px;
+    width: 36px;
+}
+
+.banners img {
+    width: 100%;
+    max-height: 350px;
+}

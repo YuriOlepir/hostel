@@ -1,0 +1,139 @@
+    /*==========  Desktop First Method  ==========*/
+
+
+/* Large Devices, Wide Screens */
+
+@media only screen and (max-width: 1200px) {}
+
+
+/* Medium Devices, Desktops */
+
+@media only screen and (max-width: 992px) {
+
+    .corner_left {
+        float: left;
+        border-left: 15px solid transparent;
+        left: -15px;
+    }
+
+    .corner_right {
+        float: right;
+        border-right: 15px solid transparent;
+        right: -15px;
+    }
+    .booknow .corner_left{
+        border-left: 15px solid transparent;
+    }
+
+    .text_section_wrap .line_bottom  {
+        background: url(../img/radius_line.png) no-repeat;
+        background-size: 79%;
+    }
+
+}
+
+
+/* Small Devices, Tablets */
+
+@media only screen and (max-width: 768px) {
+    .navbar{
+        width: 100%;
+        margin: 0;
+    }
+    .hd_contact {
+        font-size: 11px;
+        width: 180px;
+    
+    }
+    .navbar .nb_menu {
+        display: none;
+        position: absolute;
+        width: 100%;
+        background: #886478;
+        top: 69px;
+        z-index: 200;
+    }
+     .navbar .nb_menu a{
+        display: block;
+         border-bottom: 1px solid #BF95AC;
+         line-height: 25px;
+         width: 100%;
+         margin: 0;
+
+    }
+    .video_header{
+        font-size: 0.9em;
+    
+    }
+    .maps_wrapper {
+        height: auto;
+        width: 560px;
+    }
+    .text_section_wrap, .col_first {
+        border:none;
+}
+ .text_section_wrap .line_bottom  {
+        display: none;
+    }
+
+    .text_section_wrap div{
+    height: auto;
+    text-align: left;
+}
+
+    .booknow{
+        width: 100%;
+        position: relative;
+        left: 0;
+        height: 97px;
+        padding: 10px;
+        display: inline-block;
+        top: 10px;
+    }
+    .slider_container .booknow {
+        top: 0;
+    }
+
+    .flex-caption{
+        bottom: 55%;
+        font-size: 18px ;
+        max-width: 200px;
+    }
+    .booking-form select {
+        margin: 0;
+        width: 99%;
+    }
+    .input{
+        max-width: 32.3%;
+        margin: 10px 1px;
+    }
+  
+    }
+    /* Extra Small Devices, Phones */
+    @media only screen and (max-width: 480px) {
+        .input{
+            max-width: 31.7%;
+            margin: 10px 1px;
+        }
+    }
+    /* Custom, iPhone Retina */
+    @media only screen and (max-width: 320px) {}
+    /*==========  Mobile First Method  ==========*/
+    /* Custom, iPhone Retina */
+    @media only screen and (min-width: 320px) {}
+    /* Extra Small Devices, Phones */
+    @media only screen and (min-width: 560px) {
+  
+    }
+    /* Small Devices, Tablets */
+    @media only screen and (min-width: 768px) {
+        .navbar .nb_menu{
+            display: block !important;
+        }
+
+
+}
+    /* Medium Devices, Desktops */
+    @media only screen and (min-width: 992px) {}
+    /* Large Devices, Wide Screens */
+    @media only screen and (min-width: 1200px) {}
